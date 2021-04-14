@@ -1,0 +1,170 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+.container-fluid{
+  padding: 3% 15% 10% 15%;
+}
+
+#title {
+  background-color: #5f0f40;
+  color: #FFF;
+}
+
+.navbar{
+  padding: 0 0 3.5rem 0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 2% 3% 5% 0;
+  background-color: #9a031e;
+  color: #FFFF;
+}
+
+/* Title Image */
+
+.title-image{
+  width: 70%;
+  padding-left: 5%;
+}
+
+/* Features Section */
+#features{
+  padding: 7% 15%;
+
+}
+
+.feature-box{
+
+}
+
+.feature-icon{
+  padding-bottom: 6%;
+  color: #9a031e;
+}
+
+.feature-icon:hover{
+  color: #fb8b24;
+}
+
+.feature-text{
+  color: #8f8f8f;
+}
+
+/* Testimonial Section */
+#testimonials{
+  text-align: center;
+  background-color: #9a031e;
+  color: #fff;
+}
+
+.testimonal-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #9a031e;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  width: 15%;
+  padding: 20px 20px 15px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+padding: 3% 2%;
+text-align: center;
+}
+
+.last-entry{
+  padding-bottom: 38px;
+}
+
+#cta{
+    background-color: #9a031e;
+  text-align: center;
+}
+
+.cta-text{
+  font-family: "Montserrat-black", sans-serif;
+  color: #fff;
+  font-size: 2.5rem;
+  padding-top: 5%;
+}
+
+.download-button2{
+  background-color: #0f4c5c;
+}
+
+/* Footer Section */
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  margin: 2%;
+}
+
+.social-buttons-container{
+  padding: 2%;
+}
+
+/* Media */
+
+@media (max-width: 1028px){
+#title{
+  text-align: center;
+}
+}
