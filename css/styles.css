@@ -93,7 +93,8 @@ h3{
 /* Testimonial Section */
 #testimonials{
   text-align: center;
-  background-color: #9a031e;
+  background: rgb(95,15,64);
+  background: linear-gradient(347deg, rgba(95,15,64,1) 6%, rgba(154,3,30,1) 96%);
   color: #fff;
 }
 
@@ -103,44 +104,50 @@ h3{
   margin: 20px;
 }
 
-#press{
-  background-color: #9a031e;
-  text-align: center;
-  padding-bottom: 3%;
-}
 
-.press-image{
-  width: 15%;
-  padding: 20px 20px 15px;
-}
 
 .carousel-item{
     padding: 7% 15%;
 }
 
-/* Pricing */
-
-#pricing{
-  padding: 100px;
+.testi-name{
+  display: block;
+  padding-top: 1.5%;
+  font-size: 1.5rem;
+}
+/* Product Section */
+#product{
+  text-align: center;
+  padding-bottom: 3%;
 }
 
-.pricing-column{
-padding: 3% 2%;
-text-align: center;
+.product-box{
+  padding: 0 20%;
+  margin-top: 5%;
 }
 
-.last-entry{
-  padding-bottom: 38px;
+.product-image{
+  width : 50%;
 }
+
+.divider{
+  margin: 4% auto;
+  width: 75%;
+  background-color: #9a031e;
+}
+
+/* CTA Section */
 
 #cta{
-    background-color: #9a031e;
+  background: rgb(95,15,64);
+  background: linear-gradient(347deg, rgba(95,15,64,1) 6%, rgba(154,3,30,1) 96%);
+  
+  color: #fff;
   text-align: center;
 }
 
 .cta-text{
   font-family: "Montserrat-black", sans-serif;
-  color: #fff;
   font-size: 2.5rem;
   padding-top: 5%;
 }
@@ -160,6 +167,8 @@ text-align: center;
 .social-buttons-container{
   padding: 2%;
 }
+
+
 
 /* Media */
 
